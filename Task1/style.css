@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 50%;
+    transition: all 2s linear 0s;
+}
+#profile:hover{
+    scale: 1.2;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#skills {
+    padding: 20px;
+}
+
+#ul1:hover{
+    color: rgb(87, 87, 226);
+}
+#ul2:hover{
+    color: rgb(87, 87, 226);
+}
+#ul3:hover{
+    color: rgb(87, 87, 226);
+}
+#ul4:hover{
+    color: rgb(87, 87, 226);
+}
+#ul5:hover{
+    color: rgb(87, 87, 226);
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
+
+#resume {
+    padding: 20px;
+    text-align: center;
+}
+#Linkedin {
+    padding: 20px;
+    text-align: center;
+}
+#Github {
+    padding: 20px;
+    text-align: center;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
